@@ -1,0 +1,221 @@
+
+
+/* **************************************************************** midya quer *********************************************************** */
+/* @media screen and (max-width: 768px){ */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* overflow: hidden; */
+    }
+    body {
+        width: 768px;
+        height: 730px;
+        background: black;
+    }
+    .bg_img {
+        width: 100%;
+        height: 91%;
+        background: rgba(0,0,0,0.5) url('../html/tab_bg.jpg') ;
+        background-size: cover;
+        filter: none;
+        background-blend-mode: darken;
+        background-repeat: no-repeat;
+    }
+    .bg_black_bottam {
+        width: 100%;
+        min-height: 300px;
+        background: linear-gradient(0deg, rgb(0, 0, 0),80%, transparent);
+    }
+    
+    .bg_black_top {
+        width: 100%;
+        height: 730px;
+        background: transparent;
+    }
+    .logo {
+        width: 100%;
+        height: 9%;
+        top: 0px;
+        right: 0px;
+        letter-spacing: 2px;
+        background: rgba(0,0,0,0.6) url('tab_bg.jpg') ;
+        background-blend-mode: darken;
+        background-size: cover;
+        right: 0px;
+        display: flex;
+        justify-content: center;    
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 0.9em;
+        top: 55%;
+    }
+
+    .line{
+        width: 0px;
+        height: 0px;
+    }
+    
+    .detile {
+        width: 420px;
+        height: 100px;
+        left: 10px;
+        top: 100px;
+    }
+    
+    .D_boxA,
+    .D_boxB,
+    .D_boxC {
+        margin-top: 8px;
+    }
+    
+    .detile_icon {
+        font-size: 1em;
+    }
+    
+    .detile_iconA {
+        font-size: 1.5em;
+    }
+    
+    .detile_word {
+        font-size: 0.8em;
+    }
+    
+    .onwear {
+        width: 200px;
+        bottom: 50px;
+        right: 0px;
+        align-items: center;
+    }
+    
+    .onwear_word {
+        font-size: 1em;
+        margin-left: 0px;
+    }
+    .name_box {
+        margin-left: 20px;
+        margin-top: 0;
+    }
+    
+    .onwear_name {
+        font-size: 0.8em;
+    }
+    
+    .name_icon {
+        font-size: 0.9em;
+    }
+    .pvt_word {
+        font-size: 1.1em;
+    }
+    
+    .pvt_A {
+        margin-left: 22px;
+    }
+    
+    .sosiyal_icon {
+        height: 148px;
+        bottom: 0px;
+        left: 350px;
+        transform: rotate(-90deg);
+    }
+    
+    .sosiyal_icon_boxA,
+    .sosiyal_icon_boxB,
+    .sosiyal_icon_boxC {
+        width: 30px;
+        height: 30px;
+    }
+    .sosiyal_icon_boxA:hover,
+    .sosiyal_icon_boxB:hover,
+    .sosiyal_icon_boxC:hover{
+        background: transparent;
+    }
+    .sosiyal_icon_boxA:hover .sosiyal_icon_box_a,
+    .sosiyal_icon_boxB:hover .sosiyal_icon_box_b,
+    .sosiyal_icon_boxC:hover .sosiyal_icon_box_c {
+        width: 30px;
+        height: 30px;
+        border-radius: 30%;
+    }
+    
+    .sosiyal_icon_box_a,
+    .sosiyal_icon_box_b,
+    .sosiyal_icon_box_c {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .icon_A,
+    .icon_B,
+    .icon_C {
+        font-size: 1.1em;
+        transform: rotate(90deg);
+    }
+
+    .menu {
+        right: 0px;
+        width: 100%;
+    }
+    
+    .word_ {
+        width: 100%;
+    }
+    
+    .menu_box {
+        width: 100%;
+    }
+    
+    .menu_boxB {
+        width: 300px;
+        left: 0px;
+    }
+    .marble_box,
+    .grenite_box,
+    .send_stone_box,
+    .italian_marble_box {
+        left: 0px;
+        width: 100%;
+        justify-content: center;
+    }
+    .marble_box {
+        margin-top: 0px;
+    }
+    
+    .linkA,
+    .linkB,
+    .linkC,
+    .linkD {
+        text-decoration-line: underline ;
+        left: 0px;
+    }
+    
+    .marble_box:hover .linkA,
+    .grenite_box:hover .linkB,
+    .send_stone_box:hover .linkC,
+    .italian_marble_box:hover .linkD {
+        font-size: 1.5em;
+        transform: translateX(0px);
+        letter-spacing: 10px;
+        font-weight: 900;
+        text-decoration-line: none ;
+
+    }
+    
+    .menu_iconA,
+    .menu_iconB,
+    .menu_iconC,
+    .menu_iconD {
+        font-size: 0em;
+    }
+    
+    .marble_box:hover .menu_iconA,
+    .grenite_box:hover .menu_iconB,
+    .send_stone_box:hover .menu_iconC,
+    .italian_marble_box:hover .menu_iconD {
+        font-size: 0;
+        opacity: 0;
+    }
+/* } */
